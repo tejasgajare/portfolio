@@ -9,7 +9,7 @@
                     I <span class="typing"></span>
                 </Typed>
             </div>
-            <div class="sfmono w-7/12">I am a Software Engineer based in Syracuse, NY, currently working as a Cloud Developer II at HPE</div>
+            <div class="sfmono w-7/12">I am a Software Engineer based in Syracuse, NY. Incoming Cloud Developer II at HPE.</div>
             <div>
                 <!-- Show social media icons  -->
                 <div class="flex gap-3 w-32 py-3">
