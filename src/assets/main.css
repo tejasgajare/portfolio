@@ -1,0 +1,9 @@
+@import './base.css';
+
+#app {
+  font-family: 'Calibre', sans-serif;
+}
+
+.sfmono {
+  font-family: "SF Mono", sans-serif;
+}
