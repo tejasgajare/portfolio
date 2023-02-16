@@ -1,4 +1,9 @@
-@import './base.css';
+@import './base.scss';
+
+$black: #101010;
+$gray: #515151;
+$yellow: #FFD900;
+$white: #FFFFFF;
 
 #app {
   font-family: 'Calibre', sans-serif;
