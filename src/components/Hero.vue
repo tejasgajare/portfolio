@@ -1,5 +1,5 @@
 <template>
-    <div class="hero" :class="{ 'pt-40': large, 'pt-12': mobile || small || medium }">
+    <div id="hero" class="hero" :class="{ 'pt-40': large, 'pt-12': mobile || small || medium }">
         <div class="flex flex-col font-semibold"
             :class="{ 'text-9xl': large, 'text-8xl leading-medium': medium, 'text-7xl leading-small': small || mobile }">
             <div class="flex gap-8 items-center" :class="{ 'flex-wrap justify-center': mobile || small || medium }">
@@ -28,9 +28,9 @@
     <div class="social">
         <div class="flex max-lg:flex-wrap text-3xl justify-between max-lg:justify-center">
             <div class="flex py-5 gap-5 max-lg:w-full max-lg:justify-center">
-                <div class="link">LinkedIn</div>
-                <div class="link">GitHub</div>
-                <div class="link">Instagram</div>
+                <a class="link" target="_blank" href="https://www.linkedin.com/in/tejasgajare">LinkedIn</a>
+                <a class="link" target="_blank" href="https://github.com/tejasgajare">GitHub</a>
+                <a class="link" target="_blank" href="https://www.instagram.com/tejas_gajare">Instagram</a>
             </div>
             <div class="link py-5">
                 <!-- <button class="bg-yellow text-black font-semibold px-8 pt-2 rounded-full">
@@ -39,7 +39,7 @@
                         <img class="mx-3 mt-1" src="../assets/images/arrow.svg" alt="">
                     </div>
                 </button> -->
-                hello@tejas.com
+                <a target="_blank" href="mailto:tejasgajare24@gmail.com">hello@tejas.com</a>
             </div>
         </div>
     </div>

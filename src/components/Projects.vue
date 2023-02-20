@@ -4,39 +4,47 @@
         <div class="anim flex place-content-center" :class="{' flex-wrap': mobile||small}">
             <div  :class="{'basis-1/2': large||medium}">
                 <div class="img-container anim-a py-5 mx-auto">
-                    <div class="overlay-a"/>
-                    <div class="image bg-center bg-[url('../assets/images/calorie_400x450.jpg')]" />
-                    <div class="img-content py-2">
-                        <h1 class="text-3xl font-medium py-3">Calorie Manager</h1>
-                        <p>Comprehensive meal tracking solution with an intuitive dashboard, macronutrient tracking, and a newsfeed for fitness inspiration.</p>
-                    </div>
+                    <a class="project-link" target="_blank" href="https://github.com/tejasgajare/caloriemanager">
+                        <div class="overlay-a"/>
+                        <div class="image bg-center bg-[url('../assets/images/calorie_400x450.jpg')]" />
+                        <div class="img-content py-2">
+                            <h1 class="text-3xl font-medium py-3">Calorie Manager</h1>
+                            <p>Comprehensive meal tracking solution with an intuitive dashboard, macronutrient tracking, and a newsfeed for fitness inspiration.</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="img-container anim-b py-5 mx-auto">
-                    <div class="overlay-b"/>
-                    <div class="image bg-center bg-[url('../assets/images/measureit_400x450.jpg')]" />
-                    <div class="img-content py-2">
-                        <h1 class="text-3xl font-medium py-3">Measure It</h1>
-                        <p>Comprehensive meal tracking solution with an intuitive dashboard, macronutrient tracking, and a newsfeed for fitness inspiration.</p>
-                    </div>
+                    <a class="project-link" target="_blank" href="https://github.com/tejasgajare/Measure-It">
+                        <div class="overlay-b"/>
+                        <div class="image bg-center bg-[url('../assets/images/measureit_400x450.jpg')]" />
+                        <div class="img-content py-2">
+                            <h1 class="text-3xl font-medium py-3">Measure It</h1>
+                            <p>Measure indoor dimensions using just your mobile camera. Use any standard object such as credit card as a template for reference.</p>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div  :class="{'basis-1/2': large||medium}">
                 <div v-if="large||medium" class="h-32"></div>
                 <div class="img-container anim-c py-5 mx-auto">
-                    <div class="overlay-c"/>
-                    <div class="image bg-center bg-[url('../assets/images/roadsign_400x450.jpg')]" />
-                    <div class="img-content py-2">
-                        <h1 class="text-3xl font-medium py-3">Road Sign Translator</h1>
-                        <p>Comprehensive meal tracking solution with an intuitive dashboard, macronutrient tracking, and a newsfeed for fitness inspiration.</p>
-                    </div>
+                    <a class="project-link" target="_blank" href="https://github.com/tejasgajare/RoadSignTranslator">
+                        <div class="overlay-c"/>
+                        <div class="image bg-center bg-[url('../assets/images/roadsign_400x450.jpg')]" />
+                        <div class="img-content py-2">
+                            <h1 class="text-3xl font-medium py-3">Road Sign Translator</h1>
+                            <p>A Smart Road Sign Translator uses a dashboard camera to capture road signs, extract text, and narrate their messages in the driver's native language.</p>
+                        </div>
+                    </a>
                 </div>
                 <div class="img-container anim-d py-5 mx-auto">
-                    <div class="overlay-d"/>
-                    <div class="image bg-center bg-[url('../assets/images/feedback_400x450.jpg')]" />
-                    <div class="img-content py-2">
-                        <h1 class="text-3xl font-medium py-3">Feedback System</h1>
-                        <p>Comprehensive meal tracking solution with an intuitive dashboard, macronutrient tracking, and a newsfeed for fitness inspiration.</p>
-                    </div>
+                    <a class="project-link" target="_blank" href="https://github.com/tejasgajare/FeedbackSystem">
+                        <div class="overlay-d"/>
+                        <div class="image bg-center bg-[url('../assets/images/feedback_400x450.jpg')]" />
+                        <div class="img-content py-2">
+                            <h1 class="text-3xl font-medium py-3">Feedback System</h1>
+                            <p>The feedback system enables admins to create forms for students to provide feedback, and offers a dashboard for teachers to track their performance.</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
