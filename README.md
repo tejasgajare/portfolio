@@ -1,4 +1,4 @@
-# portfolio
+# Tejas's Portfolio
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -40,19 +40,11 @@ npm run build
 ```
 
 ### Firebase Deploy
-1. Fix a potential error in vue3-typed-js package
-    1) Open `node_modules/@duskmoon/vue3-typed-js/src/components/Typed.tsx`
-    2) Replace line 1 with the following:
-        ```diff
-        - import { h, ref, PropType, defineComponent, onMounted } from "vue";
-        + import { h, ref, defineComponent, onMounted } from "vue";
-        + import type {PropType} from "vue";
-        ```
-2. Run the build
+1. Run the build
     ```sh
     npm run build
     ```
-3. Deploy to Firebase
+2. Deploy to Firebase
     ```sh
     firebase deploy
     ```
